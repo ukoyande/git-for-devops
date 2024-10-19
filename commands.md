@@ -1,81 +1,81 @@
 # Git Commands
 
-1. Initialization
-Create a new Git repository:
+## 1. Initialization
+- **Create a new Git repository**:
+  
+  `git init`
 
-git init
+## 2. Configuration
+- **Set global username**:
+  
+  `git config --global user.name "LondheShubham153"`
 
-2. Configuration
-Set global username:
+- **Set global email**:
+  
+  `git config --global user.email "shubhamnath5@gmail.com"`
 
-git config --global user.name "LondheShubham153"
+## 3. File Operations
+- **Create a new file**:
+  
+  `touch <filename>`
 
-Set global email:
+- **Remove a file**:
+  
+  `rm <filename>`
 
-git config --global user.email "shubhamnath5@gmail.com"
+- **Restore a deleted file**:
+  
+  `git restore <filename>`
 
-3. File Operations
-Create a new file:
+## 4. Staging and Commit
+- **Check the status of the repository**:
+  
+  `git status`
 
-touch <filename>
+- **Add a file to the staging area**:
+  
+  `git add <filename>`
 
-Remove a file:
+- **Commit changes with a message**:
+  
+  `git commit -m "your commit message"`
 
-rm <filename>
+## 5. Branching
+- **Create a new branch**:
+  
+  `git checkout -b <branch_name>`
 
-Restore a deleted file:
+- **Switch between branches**:
+  
+  `git checkout <branch_name>`
 
-git restore <filename>
+- **List all branches**:
+  
+  `git branch`
 
-4. Staging and Commit
-Check the status of the repository:
+## 6. Logs
+- **View commit history**:
+  
+  `git log`
 
-git status
+- **View concise commit history**:
+  
+  `git log --oneline`
 
-Add a file to the staging area:
+## 7. Remove from Staging
+- **Unstage a file (remove from index but keep in working directory)**:
+  
+  `git rm --cached <filename>`
 
-git add <filename>
+## 8. Miscellaneous
+- **View all files, including hidden ones**:
+  
+  `ls -a`
 
-Commit changes with a message:
+- **Clear terminal**:
+  
+  `clear`
 
-git commit -m "your commit message"
-
-5. Branching
-Create a new branch:
-
-git checkout -b <branch_name>
-
-Switch between branches:
-
-git checkout <branch_name>
-
-List all branches:
-
-git branch
-
-6. Logs
-View commit history:
-
-git log
-
-View concise commit history:
-
-git log --oneline
-
-7. Remove from Staging
-Unstage a file (remove from index but keep in working directory):
-
-git rm --cached <filename>
-
-8. Miscellaneous
-View all files, including hidden ones:
-
-ls -a
-
-Clear terminal:
-
-clear
-
-View command history:
-
-history
+- **View command history**:
+  
+  `history`
